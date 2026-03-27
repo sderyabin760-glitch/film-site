@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тёплый свет на кухне</title>
+<style>
+body {margin:0;font-family:Arial;background:#0d0d0d;color:white;scroll-behavior:smooth;}
+header {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1600x900');
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display:flex;align-items:center;justify-content:center;text-align:center;
+}
+header h1 {font-size:60px;animation: fadeIn 2s;}
+header p {font-size:20px;animation: fadeIn 3s;}
+section {padding:60px 20px;max-width:1000px;margin:auto;}
+.timeline {border-left:3px solid red;padding-left:20px;}
+.timeline div {margin-bottom:20px;opacity:0;transform:translateX(-20px);transition:0.5s;}
+.timeline div.visible {opacity:1;transform:translateX(0);} 
+.facts, .scenes, .poster-section {background:#111;padding:20px;border-radius:10px;margin-bottom:40px;}
+img {max-width:100%;border-radius:10px;margin:10px 0;}
+h2 {margin-top:40px;}
+@keyframes fadeIn {from{opacity:0;}to{opacity:1;}}
+</style>
+</head>
+<body>
+
+<header>
+<div>
+<h1>Тёплый свет на кухне</h1>
+<p>История о простых людях и важных разговорах</p>
+</div>
+</header>
+
+<section>
+<h2>Краткое описание фильма</h2>
+<p><strong>Название:</strong> Тёплый свет на кухне<br>
+<strong>Жанр:</strong> Драма, бытовая история<br>
+<strong>Главная тема:</strong> Влияние простых разговоров и близости на жизнь людей<br>
+<strong>Продолжительность:</strong> 1 час 30 минут<br>
+<strong>Актуальность:</strong> Фильм показывает важность внимательного отношения к близким и ценности маленьких радостей. Сюжет о том, как ежедневные события и диалоги могут менять человека.</p>
+</section>
+
+<section>
+<h2>Герои</h2>
+<div class="timeline" id="timeline">
+<div><strong>Вова</strong> — муж, 36 лет, усталый работник, ищущий опору в семье и мелких радостях.</div>
+<div><strong>Анна</strong> — жена, 34 года, заботливая, тихая, наблюдает за жизнью вокруг, ценит семейное тепло.</div>
+<div><strong>Тошик</strong> — соседский подросток, 14 лет, энергичный и любопытный, задаёт взрослым вопросы и приносит свежие эмоции.</div>
+<div><strong>Ольга</strong> — соседка, ~40 лет, открытая, прямолинейная, привносит честные разговоры и новые взгляды.</div>
+</div>
+</section>
+
+<section>
+<h2>Основные сюжетные линии</h2>
+<p>1. Завязка: обычная жизнь Вовы и Анны, появление Тошика.<br>
+2. Развитие: приход Ольги, бытовые трудности и новые разговоры.<br>
+3. Кульминация: отключение света, откровенные беседы за свечами.<br>
+4. Развязка: герои осознают ценность простых моментов, жизнь меняется, возвращения к прежней пустоте нет.</p>
+</section>
+
+<section>
+<h2>Подробные сцены</h2>
+<div class="scenes">
+<h3>Сцена 1. Завязка — Квартира Вовы и Анны, вечер</h3>
+<p>Вова приходит домой, усталый после работы. Анна моет посуду, готовит чай. В подъезде слышен стук — это Тошик, который приходит поделиться школьными историями. Маленький бытовой момент становится началом близости и смеха.</p>
+
+<h3>Сцена 2. Развитие — Ольга и бытовые сложности</h3>
+<p>Ольга приходит в гости, задаёт прямые вопросы, обсуждает одиночество и жизнь в доме. Вова узнаёт о возможных сокращениях на работе, но на кухне чувствует уют. Тошик становится ещё более частым гостем, создавая лёгкую атмосферу перемен.</p>
+
+<h3>Сцена 3. Мелкие конфликты и наблюдения</h3>
+<p>Анна наблюдает за жизнью за окном, Тошик обращает внимание на новую кофеварку. Малые бытовые детали и совместные моменты делают дни героев более насыщенными и тёплыми.</p>
+
+<h3>Сцена 4. Кульминация — Отключение света и откровения</h3>
+<p>Вдруг гаснет свет. Вова ставит свечи на стол, герои обсуждают страхи, сомнения и мечты. Перемены начинаются внутри каждого из них.</p>
+
+<h3>Сцена 5. Развязка — Новая жизнь</h3>
+<p>Несколько недель спустя герои живут внимательнее друг к другу, ценят простые радости и проводят больше времени вместе. Дом — это они и их тёплый свет.</p>
+</div>
+</section>
+
+<section class="poster-section">
+<h2>Постер и кадры из фильма</h2>
+<img src="foto.png" width="300" alt="Постер фильма 'Тёплый свет на кухне'">
+<img src="foto2.png" width="650" alt="Постер фильма 'Тёплый свет на кухне'">
+<p>На постере показаны главные герои Вова, Анна и Тошик в тёплом свете кухни. Также изображены сцены совместной жизни и бесед.</p>
+</section>
+
+<footer>
+<p>© 2026 Исторический проект</p>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  document.querySelectorAll('.timeline div').forEach(el => {
+    const pos = el.getBoundingClientRect().top;
+    if(pos < window.innerHeight - 50){
+      el.classList.add('visible');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
